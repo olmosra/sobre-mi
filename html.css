@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(204, 241, 195, 0.836);
+}
+header{
+    font-size: 35px;
+    text-align: center;
+}
+article{
+    border: 1px solid rgb(0,0,0); 
+    border-radius: 15px, 15px;
+    margin: 20px;
+    margin-left: 40px;
+    padding: 5px;
+    font-size: 20px;
+}
+img{
+height: 15%;
+width: 15%;
+margin: 10px;
+flex-grow: 1;
+
+}
+#js{
+    flex-grow: 3;
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
