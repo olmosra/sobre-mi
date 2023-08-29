@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <h1>Piedra Papel Tijera</h1>
+    <h1>Piedra Papel Tijeras</h1>
 
     <div class="nombre">
      <label for="">Nombre: </label><input type="text" name="" id="nombre">
@@ -16,9 +16,15 @@
      </div>
 
     <div class="botones">
-        <button id="piedra">Piedra</button>
-        <button id="papel">Papel</button>
-        <button id="tijera">Tijera</button>
+        <button id="piedra" onclick="juegaPiedra()">
+            <img src="https://img2.freepng.es/20171216/823/stone-png-5a35c87f477ef6.7057305815134741752929.jpg"  width="90px" height="60px" alt="Piedra">
+        </button>
+        <button id="papel" onclick="juegaPapel()">
+            <img src="https://img2.freepng.es/20180128/rye/kisspng-kraft-paper-texture-nostalgia-kraft-paper-sheets-texture-background-5a6dc837bc2e44.9733938215171441197708.jpg" alt="Papel" width="90px" height="60px">
+        </button>
+        <button id="tijeras" onclick="juegaTijeras()">
+            <img src="https://img2.freepng.es/20180601/ozw/kisspng-image-file-formats-image-resolution-clip-art-tijeras-5b10f6dc87aad9.7426304415278384285557.jpg" alt="Tijera" width="90px" height="60px">
+        </button>
     </div>
     <script src="main.js"></script>
 </body>
